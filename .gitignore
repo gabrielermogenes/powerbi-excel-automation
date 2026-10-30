@@ -1,0 +1,28 @@
+# Configuração real (contém caminhos e links internos)
+config.py
+.env
+
+# Dados e planilhas: nunca versionar
+*.xlsx
+*.xlsm
+*.xls
+*.csv
+*.bas
+
+# Prints e imagens (podem conter dados reais). Imagens de documentação ficam em docs/
+*.png
+*.jpg
+*.jpeg
+!docs/*.png
+
+# Backups, logs e temporários
+*_backup_*
+*.log
+~$*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
